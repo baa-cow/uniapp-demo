@@ -1,0 +1,1 @@
+<view class="goods"><goodlist vue-id="576f0adc-1" goods="{{goodList}}" data-event-opts="{{[['^detail',[['navigator']]]]}}" bind:detail="__e" bind:__l="__l"></goodlist></view>

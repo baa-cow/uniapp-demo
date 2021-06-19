@@ -1,0 +1,1 @@
+<view class="news-detail"><view class="_h3">{{nDetail.title}}</view><view class="timeD"><text>{{"发表时间："+$root.f0}}</text><text>{{"浏览："+nDetail.watch}}</text></view><view class="content"><rich-text nodes="{{nDetail.content}}"></rich-text></view></view>

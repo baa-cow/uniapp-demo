@@ -1,0 +1,54 @@
+.home {
+  width: 750rpx;
+}
+.home image {
+  width: 100%;
+  height: 100%;
+}
+.home .swiper {
+  height: 380rpx;
+}
+.home .nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.home .nav .nav-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+.home .nav .nav-item .icon {
+  width: 120rpx;
+  height: 120rpx;
+  background-color: #f40;
+  font-size: 50rpx;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 120rpx;
+  margin: 10px auto;
+}
+.home .nav .nav-item .icon-tupian {
+  font-size: 45rpx;
+}
+.home .nav .nav-item .title {
+  font-size: 30rpx;
+}
+.home .hot-goods {
+  background-color: #eee;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.home .hot-goods .title {
+  height: 50px;
+  line-height: 50px;
+  font-size: 40rpx;
+  color: #b50e03;
+  letter-spacing: 40rpx;
+  background-color: #fff;
+  margin: 3px auto;
+  text-align: center;
+}
+

@@ -1,0 +1,42 @@
+page {
+  height: 100%;
+}
+.pics {
+  height: 100%;
+  padding-top: 2px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.pics .left {
+  width: 200rpx;
+  text-align: center;
+  font-size: 30rpx;
+  border-right: 1px solid #eee;
+}
+.pics .left view {
+  height: 60px;
+  line-height: 60px;
+}
+.pics .left .active {
+  background-color: #f40;
+}
+.pics .right {
+  width: 550rpx;
+  height: 100%;
+  font-size: 28rpx;
+}
+.pics .right .right-item {
+  width: 100%;
+  margin-top: 10px;
+}
+.pics .right .right-item image {
+  width: 500rpx;
+  height: 500rpx;
+  display: block;
+  margin: 0 auto;
+}
+.pics .right .right-item text {
+  padding-left: 20rpx;
+}
+

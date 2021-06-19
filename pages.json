@@ -1,0 +1,97 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path":"pages/news/news",
+			"style":{
+				"navigationBarTitleText":"资讯"
+			}
+		},
+		{
+			"path":"pages/cart/cart",
+			"style":{
+				"navigationBarTitleText":"购物车",
+				"backgroundColor":"#eee"
+			}
+		},
+		{
+			"path":"pages/self/self",
+			"style":{
+				"navigationBarTitleText":"我的设置"
+			}
+		},
+		{
+			"path":"pages/goods/goods",
+			"style":{
+				"navigationBarTitleText":"超市",
+				"onReachBottomDistance":0,
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path":"pages/contact/contact",
+			"style":{
+				"navigationBarTitleText":"联系我们"
+			}
+		},
+		{
+			"path":"pages/pics/pics",
+			"style":{
+				"navigationBarTitleText":"社区图片"
+				
+			}
+		},
+		{
+			"path":"pages/detail/detail",
+			"style":{
+				"navigationBarTitleText":"商品详情"
+			}
+		},
+		{
+			"path":"pages/newsDetail/newsDetail",
+			"style":{
+				"navigationBarTitleText":"资讯详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "阿牛超市",
+		"navigationBarBackgroundColor": "#f40",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance":0
+	},
+	"tabBar":{
+		"color":"#999999",
+		"selectedColor":"#f40",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/icon/home.png",
+				"selectedIconPath":"static/icon/home-active.png"
+			},
+			{
+				"pagePath":"pages/news/news",
+				"text":"资讯",
+				"iconPath":"static/icon/news.png",
+				"selectedIconPath":"static/icon/news-active.png"
+			},
+			{
+				"pagePath":"pages/cart/cart",
+				"text":"购物车",
+				"iconPath":"static/icon/cart.png",
+				"selectedIconPath":"static/icon/cart-active.png"
+			},
+			{
+				"pagePath":"pages/self/self",
+				"text":"我",
+				"iconPath":"static/icon/member.png",
+				"selectedIconPath":"static/icon/member-active.png"
+			}
+		]
+		
+	}
+}

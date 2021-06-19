@@ -1,0 +1,18 @@
+.contact image {
+  width: 750rpx;
+  height: 320rpx;
+}
+.contact .info {
+  padding: 5px 10px;
+  font-size: 15px;
+}
+.contact .phone,
+.contact .address {
+  line-height: 40px;
+  border-bottom: 1px solid #eee;
+}
+.contact .map {
+  width: 750rpx;
+  height: 750rpx;
+}
+

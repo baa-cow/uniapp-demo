@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/cart/cart",
+    "pages/self/self",
+    "pages/goods/goods",
+    "pages/contact/contact",
+    "pages/pics/pics",
+    "pages/detail/detail",
+    "pages/newsDetail/newsDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "阿牛超市",
+    "navigationBarBackgroundColor": "#f40",
+    "backgroundColor": "#F8F8F8",
+    "onReachBottomDistance": 0
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#f40",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-active.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "iconPath": "static/icon/news.png",
+        "selectedIconPath": "static/icon/news-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/icon/cart.png",
+        "selectedIconPath": "static/icon/cart-active.png"
+      },
+      {
+        "pagePath": "pages/self/self",
+        "text": "我",
+        "iconPath": "static/icon/member.png",
+        "selectedIconPath": "static/icon/member-active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

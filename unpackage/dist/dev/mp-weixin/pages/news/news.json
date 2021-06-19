@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "资讯",
+  "usingComponents": {
+    "news-item": "/components/newsitem/newsitem"
+  }
+}

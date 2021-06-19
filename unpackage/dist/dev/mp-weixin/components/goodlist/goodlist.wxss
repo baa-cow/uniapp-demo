@@ -1,0 +1,37 @@
+.goodlist {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 0 15rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 28rpx;
+}
+.goodlist .goodlist-item {
+  background-color: white;
+  margin: 3px 0;
+  padding: 7px;
+  width: 355rpx;
+  box-sizing: border-box;
+}
+.goodlist .goodlist-item image {
+  width: 80%;
+  height: 300rpx;
+  display: block;
+  margin: 0 auto;
+}
+.goodlist .goodlist-item .sell_price {
+  padding-right: 10rpx;
+  color: red;
+}
+.goodlist .goodlist-item .market_price {
+  text-decoration: line-through;
+  color: #eee;
+}
+.goodlist .goodlist-item .good-title {
+  font-size: 30rpx;
+}
+

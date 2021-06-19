@@ -1,0 +1,50 @@
+.good-detail {
+  font-size: 32rpx;
+}
+.good-detail .swiper {
+  padding: 0 30rpx;
+}
+.good-detail .swiper-item {
+  width: 750rpx;
+  height: 380rpx;
+}
+.good-detail .swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+.good-detail .price {
+  padding: 10px 10px 0;
+  border-bottom: 3px solid #eee;
+  line-height: 70rpx;
+}
+.good-detail .price .sell_price {
+  padding-right: 10rpx;
+  color: red;
+}
+.good-detail .price .market_price {
+  text-decoration: line-through;
+  color: #eee;
+}
+.good-detail .price .good-title {
+  display: block;
+  font-size: 30rpx;
+}
+.good-detail .good-number {
+  padding: 10rpx ;
+  border-bottom: 3px solid #eee;
+}
+.good-detail .good-number text {
+  display: block;
+}
+.good-detail .detail {
+  width: 750rpx;
+}
+.good-detail .detail .img {
+  width: 100%;
+}
+.good-detail .good-nav {
+  width: 750rpx;
+  position: fixed;
+  bottom: 0;
+}
+
