@@ -1,7 +1,7 @@
 <template>
 	<view class="good-detail">
 		<swiper indicator-dots class="swiper">
-			<swiper-item v-for="item in good" class="swiper-item">
+			<swiper-item v-for="item in good" class="swiper-item" :key="item.id">
 				<image :src="item.image"></image>
 			</swiper-item>
 		</swiper>
@@ -101,7 +101,8 @@
 				this.good.push(data) 
 			})
 		},
-		onShow(){
+		onShow(){	
+			if(this.good.length==0){return}
 			 this.options[2].info=this.good[0].buy;
 		},
 		components:{

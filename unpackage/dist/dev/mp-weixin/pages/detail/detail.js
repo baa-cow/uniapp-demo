@@ -257,6 +257,7 @@ __webpack_require__.r(__webpack_exports__);
     });
   },
   onShow: function onShow() {
+    if (this.good.length == 0) {return;}
     this.options[2].info = this.good[0].buy;
   },
   components: {

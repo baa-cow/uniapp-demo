@@ -162,7 +162,8 @@ var _default =
   },
   filters: {
     formatData: function formatData(data) {
-
+      if (!data) {return;}
+      // if(this.nDetail.length==0){return}
       var time = data.split(" ")[0];
       return time;
     } },

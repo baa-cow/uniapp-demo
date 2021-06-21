@@ -20,7 +20,8 @@
 		},
 		filters:{
 			formatData(data){		
-
+				if(!data){return}
+				// if(this.nDetail.length==0){return}
 				const time = data.split(" ")[0]
 				return time
 			}
